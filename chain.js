@@ -3,9 +3,11 @@ const fs = require('fs');
 var TITLES = [
   'What the fuck did you just fucking say about me, you little bitch?',
   'I’ll have you know I graduated top of my class in the Navy Seals, and I’ve been involved in numerous secret raids on Al-Quaeda, and I have over 300 confirmed kills.',
-  'I am trained in gorilla warfare and I’m the top sniper in the entire US armed forces. You are nothing to me but just another target.',
+  'I am trained in gorilla warfare and I’m the top sniper in the entire US armed forces.',
+  'You are nothing to me but just another target.',
   'I will wipe you the fuck out with precision the likes of which ha never been seen before on this Earth, mark my fucking words.',
-  'You think you can get away with saying that shit to me over the Internet? Think again, fucker.',
+  'You think you can get away with saying that shit to me over the Internet?',
+  'Think again, fucker.',
   'As we speak I am contacting my secret network of spies across the USA and your IP is being traced right now so you better prepare for the storm, maggot.',
   'The storm that wipes out the pathetic little thing you call your life.',
   'You’re fucking dead, kid.',
@@ -31,11 +33,13 @@ var TITLES = [
   'It’s too late to save yourself, but don’t bother committing suicide either… I’ll fucking resuscitate you and kill you again myself you bitch-faced phaggot.',
   'Welcome to hell, population: you.',
 
-  'What the fuck did you just fucking say about Navy Seal copypastas, you little newfag? I’ll have you know they\'ve ranked top out of all the comments on the Internet, and they have been translated in numerous contexts on 4chan, and have over 300 confirmed variants.',
+  'What the fuck did you just fucking say about Navy Seal copypastas, you little newfag?',
+  'I’ll have you know they\'ve ranked top out of all the comments on the Internet, and they have been translated in numerous contexts on 4chan, and have over 300 confirmed variants.',
   'Navy Seal copypastas are trained in memetic warfare and are the top copypasta in the entire circlejerk arsenel.',
   'You are nothing to them but just another target.',
   'They will wipe you the fuck out with precision the likes of which has never been seen before on this subreddit, mark my fucking words.',
-  'You think you can get away with saying that shit about Navy Seal copypastas over the Internet? Think again, fucker.',
+  'You think you can get away with saying that shit about Navy Seal copypastas over the Internet?',
+  'Think again, fucker.',
   'As we speak this copypasta is contacting it\'s secret network of /b/tards across the USA and your IP is being doxxed right now so you better prepare for the storm, maggot.',
   'The storm that wipes out the pathetic little thing you call your life.',
   'You’re fucking dead, kid.',
@@ -44,7 +48,24 @@ var TITLES = [
   'If only you could have known what unholy retribution your little “clever” comment was about to bring down upon you, maybe you would have held your fucking tongue.',
   'But you couldn’t, you didn’t, and now you’re paying the price, you goddamn idiot.',
   'This copypasta will shit fury all over you and you will drown in it.',
-  'You’re fucking dead, kiddo.'
+  'You’re fucking dead, kiddo.',
+
+  'What the in the name of the Queen did you just fucking say about me, you little chav?',
+  'I\'ll have you know I graduated top of my class in the SAS, and I\'ve been involved in numerous secret raids on Ireland, and I have over 300 confirmed kills.',
+  'I am trained in gentlemanly warfare and I\'m the top rooter tooter long range shooter in the entire UK armed forces.',
+  'You are nothing to me but just another target.',
+  'I will wipe you the fuck out with precision the likes of which has never been seen before on this great planet, mark my fucking words.',
+  'You think you can get away with saying that shit to me over the Internet?',
+  'Think again, chap.',
+  'As we speak I am contacting my secret network of spies across the world and your IP is being traced right now so you better prepare for the storm, banger.',
+  'The storm that wipes out the pathetic little thing you call your life.',
+  'You\'re fucking dead, kid.',
+  'I can be anywhere, anytime, and I can kill you in over seven hundred ways, and that\'s just with my bare hands.',
+  'Not only am I extensively trained in unarmed combat, but I have access to the entire arsenal of the Royal Marines and I will use it to its full extent to wipe your miserable ass off the face of the continent, you little muppet.',
+  'If only you could have known what unholy retribution your little "clever" comment was about to bring down upon you, maybe you would have held your fucking tongue.',
+  'But you couldn\'t, you didn\'t, and now you\'re paying the price, you goddamn dolt.',
+  'I will shit fury all over you and you will drown in it.',
+  'You\'re fucking dead, mate.'
 ];
 
 var terms = [];
