@@ -10,9 +10,10 @@ function serve(err, raw_data) {
   }
   var data = JSON.parse(raw_data);
 
-  http.createServer(function(request, response) {
-    response.writeHead(200, {'Content-Type': 'text/plain; charset=utf-8'});
+  http.createServer(function (request, response) {
+    response.writeHead(200, {'Content-Type': 'text/plain; charset=utf-8', 'Access-Control-Allow-Origin': '*'});
     parts = url.parse(request.url, true);
+    console.log('Responding...');
     if (parts.query.hasOwnProperty('max_len')) {
       max_len = parseInt(parts.query['max_len'], 10);
       if (max_len == max_len) {
