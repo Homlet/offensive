@@ -15,10 +15,16 @@ a {
   color: inherit;
 }
 
+h1 {
+  font-size: 48pt;
+  font-family: 'Alex Brush', cursive;
+  text-shadow: 3px 3px #FFF0C4;
+}
+
 #sentence {
   left: 0;
   right: 0;
-  margin: 200px 0 10px 0;
+  margin: 10px 0 10px 0;
   padding: 0.8em 15% 0.8em 15%;
 
   background: linear-gradient(to bottom, #F64600 0%, #FF4900 100%);
@@ -27,10 +33,6 @@ a {
   font-weight: bold;
   color: white;
   text-shadow: 3px 3px #BE3600;
-}
-
-#buttons {
-
 }
 
 .button {
