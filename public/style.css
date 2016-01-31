@@ -42,23 +42,23 @@ a {
   border-radius: 3px;
 }
 
-#tryharder {
+#tryharder .button {
   background: #FFF0C4;
   border: 1px solid #FFBF00;
 
   color: #FFBF00;
 }
 
-#tryharder:hover {
+#tryharder .button:hover {
   background: #FFBF00;
 }
 
-#offended {
+#offended .button {
   background: #FFD5C4;
   border: 1px solid #F64600;
 }
 
-#offended:hover {
+#offended .button:hover {
   background: #F64600;
 }
 
