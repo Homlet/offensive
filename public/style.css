@@ -1,0 +1,68 @@
+html {
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 12pt;
+  color: #F64600;
+}
+
+body {
+  margin: 0;
+
+  background: #FFEDE5;
+}
+
+a {
+  color: inherit;
+}
+
+#sentence {
+  left: 0;
+  right: 0;
+  margin: 200px 0 10px 0;
+  padding: 0.8em 15% 0.8em 15%;
+
+  background: linear-gradient(to bottom, #F64600 0%, #FF4900 100%);
+
+  font-size: 20pt;
+  font-weight: bold;
+  color: white;
+  text-shadow: 3px 3px #BE3600;
+}
+
+#buttons {
+
+}
+
+.button {
+  transition: 0.4s;
+  display: inline-block;
+  padding: 0.6em 1.2em 0.6em 1.2em;
+  margin: 0.5em;
+
+  border-radius: 3px;
+}
+
+#tryharder {
+  background: #FFF0C4;
+  border: 1px solid #FFBF00;
+
+  color: #FFBF00;
+}
+
+#tryharder:hover {
+  background: #FFBF00;
+}
+
+#offended {
+  background: #FFD5C4;
+  border: 1px solid #F64600;
+}
+
+#offended:hover {
+  background: #F64600;
+}
+
+.button:hover {
+  transition: 0.4s;
+  color: white !important;
+}
